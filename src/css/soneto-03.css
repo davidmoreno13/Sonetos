@@ -6,8 +6,8 @@
 /*  Estilos particulares para el soneto 03 */
 
 :root {
-  --color-lienzo-03: hsl(3, 0%, 95%);
-  --color-soneto-03: #fff;
+  --color-lienzo-03: hsl(180, 100%, 50%);
+  --color-soneto-03: hsl(30, 71%, 55%);
   --color-texto-03: #000;
 }
 
@@ -27,21 +27,22 @@
   color: currentColor;
   margin-bottom: 0.4rem;
   font-family: cursive;
-  font-style: italic;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .soneto-03 .autor {
   color: currentColor;
-  margin-bottom: 0.4rem;
-  font-style: normal;
+  margin-bottom: 0.8rem;
+  font-style: italic;
 }
 
 .soneto-03 .versos {
   color: currentColor;
   word-spacing: normal;
   line-height: 1.1rem;
-  font-style: italic;
+  font-family: 'Gloria Hallelujah';
+  font-weight: 1000;
 }
 
 .soneto-03 .verso {

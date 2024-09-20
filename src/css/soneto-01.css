@@ -7,9 +7,10 @@
 
 /*  Estilos particulares para el soneto 01 */
 
+
 :root {
-  --color-lienzo-01: hsl(0, 0%, 100%);
-  --color-soneto-01: #fff;
+  --color-lienzo-01: hsla(203, 85%, 42%, 0.621);
+  --color-soneto-01: #d35c00ab;
   --color-texto-01: #000;
 }
 
@@ -28,14 +29,14 @@
 .soneto-01 .titulo {
   color: currentColor;
   margin-bottom: 0.4rem;
-  font-family: monospace;
+  font-family: 'Uncial Antiqua', serif;
   font-size: 1.5rem;
 }
 
 .soneto-01 .autor {
   color: currentColor;
   margin-bottom: 0.4rem;
-  font-style: normal;
+  font-family: 'Uncial Antiqua', serif;
 }
 
 .soneto-01 .versos {

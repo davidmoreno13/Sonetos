@@ -6,9 +6,9 @@
 /*  Estilos particulares para el soneto 02 */
 
 :root {
-  --color-lienzo-02: hsl(3, 0%, 95%);
-  --color-soneto-02: #fff;
-  --color-texto-02: #000;
+  --color-lienzo-02: hsla(59, 100%, 50%, 0.651);
+  --color-soneto-02: #ba3737c9;
+  --color-texto-02: #ededed;
 }
 
 /**********************************************************************/
@@ -26,14 +26,15 @@
 .soneto-02 .titulo {
   color: currentColor;
   margin-bottom: 0.4rem;
-  font-family: monospace;
-  font-size: 1.5rem;
+  font-family: 'Great Vibes';
+  font-size: 3.0rem;
 }
 
 .soneto-02 .autor {
   color: currentColor;
   margin-bottom: 0.4rem;
-  font-style: normal;
+  font-family: serif;
+  font-size: 1.5rem;
 }
 
 .soneto-02 .versos {
