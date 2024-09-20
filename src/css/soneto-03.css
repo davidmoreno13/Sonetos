@@ -26,7 +26,8 @@
 .soneto-03 .titulo {
   color: currentColor;
   margin-bottom: 0.4rem;
-  font-family: monospace;
+  font-family: cursive;
+  font-style: italic;
   font-size: 1.5rem;
 }
 

@@ -8,7 +8,7 @@
 /*  Estilos particulares para el soneto 01 */
 
 :root {
-  --color-lienzo-01: hsl(3, 0%, 95%);
+  --color-lienzo-01: hsl(0, 0%, 100%);
   --color-soneto-01: #fff;
   --color-texto-01: #000;
 }
