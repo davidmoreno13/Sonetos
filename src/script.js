@@ -5,7 +5,7 @@
 //   una zona donde se muestra el soneto seleccionado de la lista de sonetos
 
 // -------------  Variables de identificación de la autoria del proyecto
-const uvus = "XXXXXX";
+const uvus = "NORUEGA";
 document.getElementById("uvus").innerHTML = uvus;
 
 // En sonetos.js se define la variable sonetos que es un array de objetos con las

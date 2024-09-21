@@ -6,9 +6,9 @@
 /*  Estilos particulares para el soneto 05 */
 
 :root {
-  --color-lienzo-05: hsl(3, 0%, 95%);
-  --color-soneto-05: #fff;
-  --color-texto-05: #000;
+  --color-lienzo-05: hsl(0, 73%, 31%);
+  --color-soneto-05: hsl(354, 100%, 90%);
+  --color-texto-05: hsl(6,59%,50%);
 }
 
 /**********************************************************************/
@@ -26,21 +26,24 @@
 .soneto-05 .titulo {
   color: currentColor;
   margin-bottom: 0.4rem;
-  font-family: monospace;
-  font-size: 1.5rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 2.5rem;
 }
 
 .soneto-05 .autor {
   color: currentColor;
-  margin-bottom: 0.4rem;
-  font-style: normal;
+  margin-bottom: 1.4rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .soneto-05 .versos {
   color: currentColor;
   word-spacing: normal;
-  line-height: 1.1rem;
-  font-style: italic;
+  line-height: 2.1rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
 }
 
 .soneto-05 .verso {

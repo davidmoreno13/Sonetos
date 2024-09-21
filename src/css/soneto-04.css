@@ -6,9 +6,13 @@
 /*  Estilos particulares para el soneto 04 */
 
 :root {
-  --color-lienzo-04: hsl(3, 0%, 95%);
-  --color-soneto-04: #fff;
-  --color-texto-04: #000;
+  --color-lienzo-04: hsl(48, 89%, 50%);
+  --color-soneto-04: hsl(184, 9%, 85%);
+  --color-texto-04: hsl(340, 82%, 52%);
+  --color-versos-A: hsl(204,64%,44%);
+  --color-versos-B: hsl(24,64%,44%);
+  --color-versos-C: hsl(294,64%,44%);
+  --color-versos-D: hsl(145, 63%, 37%);
 }
 
 /**********************************************************************/
@@ -25,22 +29,23 @@
 
 .soneto-04 .titulo {
   color: currentColor;
-  margin-bottom: 0.4rem;
-  font-family: monospace;
+  margin-bottom: 0.8rem;
+  font-family: fantasy;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .soneto-04 .autor {
   color: currentColor;
-  margin-bottom: 0.4rem;
-  font-style: normal;
+  margin-bottom: 1.4rem;
+  font-family: fantasy;
+  text-align: center;
 }
 
 .soneto-04 .versos {
-  color: currentColor;
   word-spacing: normal;
-  line-height: 1.1rem;
-  font-style: italic;
+  line-height: 2.1rem;
+  font-family: fantasy;
 }
 
 .soneto-04 .verso {
@@ -48,18 +53,35 @@
 }
 
 .soneto-04 .v-01,
+.soneto-04 .v-05 {
+  color: var(--color-versos-A);
+}
+
+.soneto-04 .v-04,
+.soneto-04 .v-08 {
+  color: var(--color-versos-A);
+  margin-bottom: 1.4rem;
+}
+
 .soneto-04 .v-02,
 .soneto-04 .v-03,
-.soneto-04 .v-04,
-.soneto-04 .v-05,
 .soneto-04 .v-06,
-.soneto-04 .v-05,
-.soneto-04 .v-08,
+.soneto-04 .v-07 {
+  color: var(--color-versos-B);
+}
+
 .soneto-04 .v-09,
+.soneto-04 .v-13 {
+  color: var(--color-versos-C);
+}
+
+.soneto-04 .v-11 {
+  color: var(--color-versos-C);
+  margin-bottom: 1.4rem;
+}
+
 .soneto-04 .v-10,
-.soneto-04 .v-11,
 .soneto-04 .v-12,
-.soneto-04 .v-13,
 .soneto-04 .v-14 {
-  color: currentColor;
+  color: var(--color-versos-D);
 }
